@@ -8,9 +8,9 @@ SCIGA written in Perl is a toolkit for 10X single cell immunoglobulin repertoire
 
 Before installing and using SCIGA, users need to install the following tools:
 
-IgBlast (>=1.15.0) - https://ftp.ncbi.nih.gov/blast/executables/igblast/release
+IgBlast (>=1.15.0) - https://ftp.ncbi.nih.gov/blast/executables/igblast/release/1.15.0/ncbi-igblast-1.15.0-x64-linux.tar.gz
 
-Blast (>=2.9.0) - ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/
+Blast (>=2.9.0) - ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-x64-linux.tar.gz
 
 R (optional) – For visualizing the results
 
