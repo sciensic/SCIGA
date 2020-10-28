@@ -19,7 +19,7 @@ ggplot2 (optional) – The R package
 
 ## Installation
 
-wget https://github.com/yehaocheng/SCIGA/releases/download/1.0.0/SCIGA_v1.0.0.tar.gz
+wget https://github.com/sciensic/SCIGA/releases/download/1.0.0/SCIGA_v1.0.0.tar.gz
 
 tar zvxf SCIGA_v1.0.0.tar.gz
 
