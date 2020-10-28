@@ -76,9 +76,9 @@ To see the full manual, run `sciga-merge -help`.
 
 In the 10X system, the majority (~90 – 99%) of generated Gel Beads-in-emulsion (GEMs) contains no cell. SCIGA provides two methods for detecting “real” cells based on the reads count of cells: 
 
-1. SCIGA constructs a curve graph of barcodes rank corresponding to their reads count in the form of logarithm. A cutoff is set at the point which slope is minimal and barcodes which reads count exceed cutoff are considered as “real” cells. This method is suitable for samples having large difference of reads count between “real” cells and background. 
+Method 1: Barcodes are considered as “real” cells when their reads count exceed an arbitrary cutoff setting by user.
 
-2. For another method, barcodes are considered as “real” cells when their reads count exceed an arbitrary cutoff setting by user. 
+Method 2: SCIGA constructs a curve graph of barcodes rank corresponding to their reads count in the form of logarithm. A cutoff is set at the point which slope is minimal and barcodes which reads count exceed cutoff are considered as “real” cells. This method is suitable for samples having large difference of reads count between “real” cells and background.  
 
 Users can get more detail about the methods in our paper. The cell detecting method can be set with “sciga -method”. To help choosing the method, users can run the command as below:
 ```
