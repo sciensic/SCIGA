@@ -61,13 +61,13 @@ sciga-cr -contig <*contig.fasta> -annotate <*contig_annotations.csv> -outdir <ou
 To see the full manual, run `sciga-cr -help`.
 
 ### For integrating the results of multiple samples, users can run SCIGA as below:
-
+```
 sciga-merge -in <input directories> -out <output directory>
   
 -in      The directories containing results generating by SCIGA program, multiple paths need to be separated by ','
 
 -out     Create and write result to this directory
-
+```
 To see the full manual, run `sciga-merge -help`.
 
 ## Optional usage
