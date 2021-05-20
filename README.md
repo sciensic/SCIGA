@@ -19,11 +19,11 @@ ggplot2 (optional) – The R package
 
 ## Installation
 
-wget https://github.com/sciensic/SCIGA/releases/download/1.0.1/SCIGA_v1.0.1.tar.gz
+wget https://github.com/sciensic/SCIGA/releases/download/1.0.2/SCIGA_v1.0.2.tar.gz
 
-tar zvxf SCIGA_v1.0.1.tar.gz
+tar zvxf SCIGA_v1.0.2.tar.gz
 
-cd SCIGA_v1.0.1
+cd SCIGA_v1.0.2
 
 `vi path` and set the path of IgBlast and Blast
  
